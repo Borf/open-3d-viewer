@@ -2,7 +2,8 @@
 
 Contact [http://groups.google.com/group/open-3d-viewer-discuss the mailing list] to discuss these ideas with project organizers.
 
-The code for the Android version will land soon.
+*Android version*
+In progress. The code for the Android version will land soon.
 
 *iOS version*
 Particularly iPad.
