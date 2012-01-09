@@ -1,0 +1,35 @@
+How to build the Android port of s3v
+====================================
+
+Customizing
+-----------
+
+This doesn't quite work yet; the model needs to be made configurable first.
+Later, this section will describe how to get a custom model into the app, and
+how to change the Google Analytics key.
+
+
+Actually building
+-----------------
+
+0. Download Android SDK, NDK
+1. In Eclipse, File->New->Project...->Android Project
+2. Create project from existing source, s3v/android
+3. Use the Android 3.0 SDK
+4. Finish
+5. Right-click project, Properties -> Java Build Path -> Libraries
+   -> Add JARs... -> Add s3v/libs/libGoogleAnalytics.jar
+6. cd jni && ndk-build  # To build the native bits
+7. Build & Run in eclipse. s3v uses OpenGL ES 2.0, which the simulator doesn't
+   support, so make sure to connect a physical device via USB
+
+
+Releasing to the market
+-----------------------
+
+* Make sure that `BodyActivity.DEVELOPER_MODE` is `false`
+* Make sure that `BodyActivity.ANALYTICS_ACCOUNT_ID` is correct
+* Edit AndroidManifest.xml with your own `package=`, `android:versionCode=`,
+  and `android:versionName=`
+* Use your own icon.png in res/drawable-hdpi and res/drawable-mdpi
+* Use your own res/drawable/body_copyright.png
