@@ -2,11 +2,10 @@
 
 Contact [http://groups.google.com/group/open-3d-viewer-discuss the mailing list] to discuss these ideas with project organizers.
 
+The code for the Android version will land soon.
+
 *1. iOS version*
 Particularly iPad.
-
-*2. Android version*
-Some code for this is available but it's not yet complete.
 
 *3. Localization*
 It should be possible to provide content labeled in multiple languages. There is a small hook built in for this now, in that display names for the sample metadata are currently marked "-en-us" and the viewer is hardcoded to look for this suffix. See also *metadata management*.
