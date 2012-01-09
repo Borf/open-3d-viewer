@@ -9,7 +9,7 @@ Particularly iPad.
 Some code for this is available but it's not yet complete.
 
 *3. Localization*
-It should be possible to provide content labeled in multiple languages. There is a small hook built in for this now, in that display names for the sample metadata are currently marked "-en-us" and the viewer looks for this suffix. See also metadata management.
+It should be possible to provide content labeled in multiple languages. There is a small hook built in for this now, in that display names for the sample metadata are currently marked "-en-us" and the viewer looks for this suffix. See also *metadata management*.
 
 *4. Fully detailed history*
 Camera position is stored in the URL after the # (try navigating and waiting a moment for it to update). This viewer should also store the layer opacity state, which parts are selected/pinned/hidden, and so on.
