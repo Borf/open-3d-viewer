@@ -1,12 +1,15 @@
-#summary Ten big project ideas for open-3d-viewer.
+#summary Ten+1 big project ideas for open-3d-viewer.
 
 Contact [http://groups.google.com/group/open-3d-viewer-discuss the mailing list] to discuss these ideas with project organizers.
 
-*1. Android version*
+*0. Android version*
 In progress. The code for the Android version will land soon.
 
-*2. iOS version*
+*1. iOS version*
 Particularly iPad.
+
+*2. Info sidebar*
+When an item is selected, show information in a sidebar. (E.g., in the human anatomy case, show article excerpts from Wikipedia.)
 
 *3. Localization*
 It should be possible to provide content labeled in multiple languages. There is a small hook built in for this now, in that display names for the sample metadata are currently marked "-en-us" and the viewer is hardcoded to look for this suffix. See also *metadata management*.
