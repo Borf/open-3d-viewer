@@ -29,5 +29,5 @@ If you're interested, my suggestion would be to work on getting the core capabil
 
 Which approach to use for porting is an interesting question.
   * The developer of the Android version of Google Body is on this thread; he analyzed the state of the v1 codebase (which differs from open-3d-viewer primarily in the complexity of the metadata model) and ported it to Java wholesale. You could do the same, or you might investigate running some of the open-3d-viewer Javascript code in a wrapped webview -- this might make it faster to get the metadata model up and running, since it's pretty self-contained.
-  * You might also look at the Android source itself as checked in. My understanding is that it's not quite buildable, but the gap to making it work is not large.
+  * You might also look at the Android source itself as checked in, as a model for the ObjC version. My understanding is that it's not quite buildable, but the gap to making it work is not large.
   * If you have time to embark on this, we can probably get Body team members to provide more detailed notes on the JS/Java source files.
