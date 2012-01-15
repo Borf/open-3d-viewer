@@ -2,7 +2,7 @@
 
 _reddkamel@gmail.com writes:_
 
-Rich, here's an overview of what the WebGL version is capable of doing. I'll post this on the Wiki as well.
+Rich, here's an overview of what the WebGL version is capable of.
 
 1. Core capabilities:
   * Load the geometry data (proprietary format) and image textures using the provided models.js file and models/cow_anatomy directory.
