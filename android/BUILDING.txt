@@ -137,6 +137,9 @@ somewhat involved steps (this will hopefully become easier in the future):
 Us using utf8 files for data storage is for compatibility with the web version,
 see http://code.google.com/p/webgl-loader/wiki/UtfEight (and the slides linked
 from the webgl-loader project page) why the web version uses utf8 data files.
+The web version was changed around quite a bit before open sourcing and the
+file formats aren't that similar any more, so the android file format could now
+be simplified.
 
 
 Actually building
